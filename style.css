@@ -1,0 +1,72 @@
+*{
+ margin: 0 ;
+ padding: 0;
+ box-sizing: border-box;
+}
+body{
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(to top, #A7A8A9,   #2C3E50);
+  
+}
+.container{
+  min-width: 100%;
+  max-width: fit-content;
+  height: 100%;
+  background: linear-gradient(to top, #A7A8A9,   #2C3E50);
+  padding: 8%;
+  overflow-y: auto;
+}
+.container h1{
+  color: lightgreen;
+}
+.container h1 i{
+  margin-right: 10px;
+  color:   #fff;
+}
+.container button{
+  width: 130px;
+  height: 40px;
+  font-size: 15px;
+  border-radius: 10px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  border: none;
+  outline: none;
+  background-color: lightgreen ;
+  color: #333;
+  margin-bottom: 50px;
+}
+.container button i{
+  margin-right: 5px;
+ font-size: 24px;
+}
+.notes-container{
+width: 100%;
+}
+.notes-container .notes-box{
+  position: relative;
+  width: 96%;
+  height: 180px;
+  background-color: #fff;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 10px;
+  padding-top: 20px;
+  border: none;
+  outline: none;
+  overflow-y: auto;
+}
+.notes-box img{
+  display: block;
+  position: absolute;
+  width: 15px;
+  height: 30px;
+  right: 10px;
+  top: -3px;
+ margin-bottom: 5px;
+ 
+}
